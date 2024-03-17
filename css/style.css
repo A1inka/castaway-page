@@ -9,6 +9,10 @@ a {
     font-size: 17px;
     line-height: 27px;
 }
+a:hover {
+    color: #348746;
+    transition: 0.7s;
+}
 
 ul {
     margin: 0;
@@ -59,8 +63,12 @@ body {
     align-items: center;
     margin-top: 40px;
 }
+.image-1 {
+    position: absolute;
+}
 .headline-img {
     margin-right: 60px;
+    position: relative;
 }
 .headline__title {
     font-size: 70px;
@@ -88,6 +96,7 @@ body {
     margin-left: 22px;
     margin-bottom: 16px;
     margin-top: 90px;
+    position: relative;
 }
 .platforms__list {
     display: flex;
@@ -114,10 +123,21 @@ body {
     background-color: #118DA8;
     border-radius: 6px;
 }
+.main__btn:hover,
+.newsletter__btn:hover {
+    background-color: #b970ab;
+    transition: 0.7s;
+    color: #fff;
+}
 
 .block__button {
     background-color: #000;
     margin-bottom: 48.44px;
+}
+.block__btn:hover {
+    background-color: #118DA8;
+    transition: 0.7s;
+    color: #fff;
 }
 .block__btn {
     font-size: 18px;
@@ -242,6 +262,12 @@ body {
     width: 100%;
     margin-bottom: 20px;
     background-color: #191919;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    opacity: .7;
 }
 .contacts-input:nth-last-child() {
     padding: 26px 443px 27px 19px;
